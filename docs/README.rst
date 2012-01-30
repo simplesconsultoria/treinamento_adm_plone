@@ -25,6 +25,7 @@ Acessar a linha de comando e se logar como **root**::
 Instalar os pacotes necessários ao treinamento::
 
 	yum install -y autoconf automake curl-devel expat-devel gcc gcc-c++ gettext-devel groff libtool libxslt ncurses-devel openssl-devel pcre-devel pkgconfig python-devel python-setuptools subversion subversion-devel zlib-devel openldap-devel compat-openldap cyrus-sasl-lib git
+	yum groupinstall -y 'Development Tools'
 
 Instalação do Python
 ======================
