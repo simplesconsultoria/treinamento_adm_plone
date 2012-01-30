@@ -36,7 +36,7 @@ Ainda como usuário root, garantir que temos a última versão do setuptools do 
 
 Vamos então clonar o repositório contendo o buildout de versões de Python::
 
-	git clone git://github.com/collective/buildout.python.git python
+	git clone https://github.com/collective/buildout.python.git python
 
 E executá-lo::
 
